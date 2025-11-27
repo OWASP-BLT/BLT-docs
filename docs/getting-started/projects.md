@@ -2,6 +2,14 @@
 
 Welcome to the OWASP-BLT ecosystem! Our organization maintains a comprehensive suite of open-source projects designed to democratize bug bounties and enhance application security. Below you'll find all of our projects organized by category.
 
+## 💡 Our Philosophy
+
+We embrace **lightweight**, **organized**, and **cost-effective** approaches to infrastructure:
+
+1. **🚀 Serverless First** - Our preferred choice for scalability and minimal maintenance
+2. **🖥️ VPS Second** - When we need more control with cost-effectiveness
+3. **☁️ Cloud Third** - When complexity and features justify the cost
+
 ---
 
 ## 🏆 Core Platform
@@ -13,7 +21,7 @@ The flagship platform that powers the OWASP-BLT ecosystem. A community-driven pl
 - **Website**: [owaspblt.org](https://owaspblt.org)
 - **Language**: HTML, Python, Django
 - **License**: AGPL-3.0
-- **Stars**: 224+ | **Forks**: 279+
+- **Stars**: 235+ | **Forks**: 289+
 
 **Key Features**:
 
@@ -97,7 +105,7 @@ GitHub Action that enables automatic issue assignment and management with the `/
 - **Repository**: [OWASP-BLT/BLT-Action](https://github.com/OWASP-BLT/BLT-Action)
 - **Language**: JavaScript
 - **License**: BSD-3-Clause
-- **Stars**: 6+ | **Forks**: 16+
+- **Stars**: 6+ | **Forks**: 17+
 
 **Key Features**:
 
@@ -119,6 +127,18 @@ Advanced Slack bot for the BLT community with AI-powered features and automation
 - Automated community management
 - Security alerts and notifications
 
+### BLT-Lettuce-on-Cloudflare
+The BLT Lettuce (OWASP Helper) bot running on Cloudflare's serverless infrastructure.
+
+- **Repository**: [OWASP-BLT/BLT-Lettuce-on-Cloudflare](https://github.com/OWASP-BLT/BLT-Lettuce-on-Cloudflare)
+- **Language**: TypeScript
+
+**Key Features**:
+
+- Serverless bot architecture
+- Cloudflare Workers deployment
+- OWASP community helper functionality
+
 ### BLT-Sammich
 Dedicated Slack bot for BLT community interactions and support.
 
@@ -135,7 +155,7 @@ Dedicated Slack bot for BLT community interactions and support.
 GitHub activity monitoring bot that provides real-time updates on repository events.
 
 - **Repository**: [OWASP-BLT/Github_Sportscaster](https://github.com/OWASP-BLT/Github_Sportscaster)
-- **Topics**: API, Bot, GitHub, Sportscaster, Tool
+- **Language**: HTML
 
 **Key Features**:
 
@@ -147,11 +167,11 @@ GitHub activity monitoring bot that provides real-time updates on repository eve
 
 ## 🔧 Development Tools & Utilities
 
-### OWASP-BLT-API
+### BLT-API
 RESTful API built on Cloudflare Workers that interfaces with the PostgreSQL database.
 
-- **Repository**: [OWASP-BLT/OWASP-BLT-API](https://github.com/OWASP-BLT/OWASP-BLT-API)
-- **Topics**: API, Backend, REST, Security
+- **Repository**: [OWASP-BLT/BLT-API](https://github.com/OWASP-BLT/BLT-API)
+- **Language**: TypeScript
 
 **Key Features**:
 
@@ -163,8 +183,7 @@ RESTful API built on Cloudflare Workers that interfaces with the PostgreSQL data
 Privacy-focused time tracking system for developers with GitHub integration and local LLM analysis.
 
 - **Repository**: [OWASP-BLT/Fresh](https://github.com/OWASP-BLT/Fresh)
-- **Language**: TypeScript
-- **License**: MIT
+- **Language**: Dart
 
 **Key Features**:
 
@@ -187,11 +206,22 @@ Open-source, hybrid local+edge privacy toolkit for managing and deleting persona
 - Hybrid local and edge processing
 - Self-destruct capabilities
 
+### Panini
+A database tracking apps that are banned or restricted by country, providing transparency on global app availability.
+
+- **Repository**: [OWASP-BLT/Panini](https://github.com/OWASP-BLT/Panini)
+
+**Key Features**:
+
+- Banned apps database by country
+- Global app availability tracking
+- Transparency on app restrictions
+
 ### OWASP-Wich
 OWASP Project compliance checker that can be used on any repository to ensure project standards.
 
 - **Repository**: [OWASP-BLT/OWASP-Wich](https://github.com/OWASP-BLT/OWASP-Wich)
-- **Topics**: OWASP, Security, Tool
+- **Language**: Python
 
 **Key Features**:
 
@@ -203,7 +233,7 @@ OWASP Project compliance checker that can be used on any repository to ensure pr
 Automated version bumping tool for dependency management.
 
 - **Repository**: [OWASP-BLT/OWASP-Bumper](https://github.com/OWASP-BLT/OWASP-Bumper)
-- **Topics**: OWASP, Security, Tool
+- **Language**: HTML
 
 **Key Features**:
 
@@ -230,6 +260,23 @@ Bitcoin-based token system (BACON) designed to incentivize engagement and contri
 - Transparent reward system
 - Gamified contributor incentives
 - Blockchain-based security
+
+---
+
+## 🛡️ Security & Vulnerability Research
+
+### BLT-CVE
+A decentralized CVE database that stays online and offers a backup to CVE, providing a way to keep vulnerability information accessible.
+
+- **Repository**: [OWASP-BLT/BLT-CVE](https://github.com/OWASP-BLT/BLT-CVE)
+- **Language**: Python
+
+**Key Features**:
+
+- Decentralized CVE database
+- Backup for official CVE data
+- Always-online vulnerability information
+- Community-maintained security data
 
 ---
 
@@ -320,7 +367,7 @@ Demonstration project showcasing BLT platform capabilities and integrations.
 Web-based demonstration tool for testing and showcasing features.
 
 - **Repository**: [OWASP-BLT/Toasty](https://github.com/OWASP-BLT/Toasty)
-- **Topics**: Demo, Tool, Web
+- **Language**: Python
 
 **Key Features**:
 
@@ -393,12 +440,12 @@ Need help or have questions?
 
 ## 📊 Project Statistics
 
-- **Total Projects**: 23
-- **Total Stars**: 250+
-- **Total Forks**: 350+
+- **Total Projects**: 26
+- **Total Stars**: 270+
+- **Total Forks**: 380+
 - **Active Contributors**: 100+
 - **Programming Languages**: Python, JavaScript, TypeScript, Dart, HTML, Shell
-- **Primary License**: AGPL-3.0, BSD-3-Clause, MIT, GPL-3.0, LGPL-2.1
+- **Primary Licenses**: AGPL-3.0, BSD-3-Clause, MIT, GPL-3.0, LGPL-2.1
 
 ---
 

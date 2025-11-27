@@ -14,47 +14,15 @@
 
 ---
 
-## 📊 Project Stats
+## 💡 Our Philosophy
 
-<p align="center">
-  <a href="https://github.com/OWASP-BLT/BLT/actions">
-    <img src="https://github.com/OWASP-BLT/BLT/actions/workflows/auto-merge.yml/badge.svg" alt="Build Status">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT">
-    <img src="https://img.shields.io/github/stars/OWASP-BLT/BLT?style=social" alt="GitHub stars">
-  </a>
-</p>
+At OWASP BLT, we believe in building software that is **lightweight**, **organized**, and **cost-effective**. We embrace modern infrastructure approaches in the following order of preference:
 
-<p align="center">
-  <a href="https://github.com/OWASP-BLT/BLT/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/OWASP-BLT/BLT?color=%23e74c3c" alt="Contributors">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT/commits/main">
-    <img src="https://img.shields.io/github/last-commit/OWASP-BLT/BLT?color=%23e74c3c" alt="Last Commit">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT/issues">
-    <img src="https://img.shields.io/github/issues/OWASP-BLT/BLT?color=%23e74c3c" alt="Open Issues">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT/pulls">
-    <img src="https://img.shields.io/github/issues-pr/OWASP-BLT/BLT?color=%23e74c3c" alt="Pull Requests">
-  </a>
-</p>
+1. **🚀 Serverless First** - Our first choice is serverless architecture (Cloudflare Workers, AWS Lambda, etc.) for its scalability, minimal maintenance, and pay-per-use pricing model
+2. **🖥️ VPS Second** - When serverless isn't suitable, we opt for Virtual Private Servers for their balance of control and cost-effectiveness
+3. **☁️ Cloud Third** - Full cloud services are used when the complexity and features justify the additional cost
 
-<p align="center">
-  <a href="https://github.com/OWASP-BLT/BLT">
-    <img src="https://img.shields.io/github/languages/top/OWASP-BLT/BLT?color=%23e74c3c" alt="Top Language">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT">
-    <img src="https://img.shields.io/github/repo-size/OWASP-BLT/BLT?color=%23e74c3c" alt="Repo Size">
-  </a>
-  <a href="https://github.com/OWASP-BLT/BLT/fork">
-    <img src="https://img.shields.io/github/forks/OWASP-BLT/BLT?style=social" alt="Forks">
-  </a>
-  <img src="https://owaspblt.org/repos/blt/badge/" alt="Views">
-</p>
+This approach ensures we remain agile, minimize operational overhead, and maximize value for our community.
 
 ---
 
