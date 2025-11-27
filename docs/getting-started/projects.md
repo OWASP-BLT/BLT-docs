@@ -207,7 +207,7 @@ Open-source, hybrid local+edge privacy toolkit for managing and deleting persona
 - Self-destruct capabilities
 
 ### Panini
-A database tracking apps that are banned or restricted by country, providing transparency on global app availability.
+A database that tracks apps that are banned or restricted by country, providing transparency on global app availability.
 
 - **Repository**: [OWASP-BLT/Panini](https://github.com/OWASP-BLT/Panini)
 
