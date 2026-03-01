@@ -26,3 +26,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 .cache/
+
+# Files merged from OWASP-BLT/BLT/docs at build time (do not commit these)
+docs/developer-guide/architecture.md
+docs/developer-guide/github-actions.md
+docs/developer-guide/github-webhook-setup.md
+docs/features/feature-checklist.md
+docs/features/blt-features.md
+docs/personas/
