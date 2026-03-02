@@ -18,40 +18,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout BLT-docs repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Checkout BLT repository
-        uses: actions/checkout@v4
-        with:
-          repository: OWASP-BLT/BLT
-          path: blt-repo
-
-      - name: Merge BLT docs into local docs directory
-        run: |
-          # Copy architecture doc into developer-guide
-          cp blt-repo/docs/architecture.md docs/developer-guide/architecture.md
-
-          # Copy GitHub Actions doc into developer-guide
-          cp blt-repo/docs/github_actions.md docs/developer-guide/github-actions.md
-
-          # Copy GitHub webhook setup doc into developer-guide
-          cp blt-repo/docs/github-webhook-setup.md docs/developer-guide/github-webhook-setup.md
-
-          # Copy feature checklist into features
-          cp blt-repo/docs/feature-checklist.md docs/features/feature-checklist.md
-
-          # Copy features overview (use as reference, don't overwrite existing overview)
-          cp blt-repo/docs/features.md docs/features/blt-features.md
-
-          # Copy file descriptions into developer-guide
-          cp blt-repo/docs/file-descriptions.csv docs/developer-guide/file-descriptions.csv
-
-          # Copy Personas into a new personas directory with kebab-case filenames
-          mkdir -p docs/personas
-          cp "blt-repo/docs/Personas/Alex Rivera - aspiring tester" "docs/personas/alex-rivera-aspiring-tester.md"
-          cp "blt-repo/docs/Personas/Frank Patel - Startup Founder" "docs/personas/frank-patel-startup-founder.md"
-          cp "blt-repo/docs/Personas/Harold - OWASP projects lead" "docs/personas/harold-owasp-projects-lead.md"
 
       - name: Setup Python
         uses: actions/setup-python@v5
