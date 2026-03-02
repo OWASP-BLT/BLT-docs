@@ -23,6 +23,11 @@ The documentation is organized into the following sections:
   - Contributing guidelines
   - Bot setup instructions
   - Development environment setup
+  - Architecture overview
+  - GitHub Actions workflows
+  - GitHub webhook setup
+- **Repositories**: Documentation for related BLT repositories
+- **Personas**: User personas for the BLT platform
 
 ## 🛠️ Local Development
 
@@ -35,8 +40,8 @@ The documentation is organized into the following sections:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/OWASP-BLT/documentation.git
-   cd documentation
+   git clone https://github.com/OWASP-BLT/BLT-docs.git
+   cd BLT-docs
    ```
 
 2. Install dependencies:

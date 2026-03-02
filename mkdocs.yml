@@ -120,6 +120,8 @@ nav:
       - All Projects: getting-started/projects.md
   - Features:
       - Overview: features/overview.md
+      - BLT Features: features/blt-features.md
+      - Feature Checklist: features/feature-checklist.md
   - User Guide:
       - About BLT: user-guide/about-us.md
       - Home Page: user-guide/home-page.md
@@ -155,6 +157,9 @@ nav:
   - Developer Guide:
       - Contributing: developer-guide/contributing.md
       - Bot Setup: developer-guide/bot-setup.md
+      - Architecture: developer-guide/architecture.md
+      - GitHub Actions: developer-guide/github-actions.md
+      - GitHub Webhook Setup: developer-guide/github-webhook-setup.md
   - Repositories:
       - BLT-API: repositories/blt-api.md
       - BLT-OWASP-metadata: repositories/blt-owasp-metadata.md
@@ -162,3 +167,7 @@ nav:
       - BLT-OWASP-Bumper: repositories/blt-owasp-bumper.md
       - BLT-OWASP-Wich: repositories/blt-owasp-wich.md
       - BLT-OWASP-Projects: repositories/blt-owasp-projects.md
+  - Personas:
+      - Alex Rivera (Aspiring Tester): personas/alex-rivera-aspiring-tester.md
+      - Frank Patel (Startup Founder): personas/frank-patel-startup-founder.md
+      - Harold (OWASP Projects Lead): personas/harold-owasp-projects-lead.md
